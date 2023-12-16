@@ -19,5 +19,10 @@ Server installation
 ```sh
 nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel --update && nix-env -iA nixpkgs.git && git clone https://github.com/kostas214/Grasscutters-on-android/ && cd Grasscutters-on-android && . install.sh
 ```
+8. When the command above is done type
+```sh
+nano config.json
+```
+Use the provided cursor buttons above the keyboard to navigate to 
 
 
