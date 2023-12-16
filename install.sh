@@ -6,3 +6,4 @@ cd GC-Resources/Resources
 mv BinOutput/ ExcelBinOutput/ Scripts ScriptSceneData/ Server TextMap/ ~/Grasscutters-on-android/resources
 cd ~/Grasscutters-on-android
 cp start.sh ~/
+cp run.sh ~/
