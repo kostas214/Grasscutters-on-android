@@ -1,5 +1,4 @@
 # Grasscutters-on-android
-
 ### A comprehensive guide on how to run the grasscutters server locally on your android device 
 
 Client installation (If you have played on yuuki before you can skip this part)
@@ -8,7 +7,7 @@ Client installation (If you have played on yuuki before you can skip this part)
 3. You need to log onto the yuuki servers at least (make an account [here](https://ps.yuuki.me/account/register?type=web)
 4. Log in in genshin impact and wait for the download to complete (you can leave the app and the download will continue)
 
-Server installation 
+## Server Installation 
 1. Download and install F-droid [here](https://f-droid.org/)
 2. Open F-droid and search for "Nix-on-Droid" and install the app
 3. Open Nix-on-Droid
@@ -19,10 +18,42 @@ Server installation
 ```sh
 nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel --update && nix-env -iA nixpkgs.git && git clone https://github.com/kostas214/Grasscutters-on-android/ && cd Grasscutters-on-android && . install.sh
 ```
-8. When the command above is done type
+Congratulations you have succesfully installed the Grasscutter server
+
+## Starting the server
+1. Open Nix-on-droid application
+2. Copy and paste this command
 ```sh
-nano config.json
+. start.sh
 ```
-Use the provided cursor buttons above the keyboard to navigate to 
+3. type ```account name``` (You can replace name with any name you want that doesn't containe spaces)
+
+**This step only needs to be done the first time you run the server and can be skipped after the first time** 
+
+5. Swipe from the left side of the screen and press on new session
+6. Enter this command
+```sh
+. run.sh
+```
+7. Exit the application without closing it
+8. Open settings navigate to wifi settings tap on the gear icon (samsung) or the right pointing arrow (xiaomi) tap "show more" if needed and scroll down until you see Proxy tap on the option and select "manual". Now on the "Proxy hostname" type ```127.0.0.1``` and on "Proxy Port" ```8080```
+9. You are now ready to launch the 4.0 client of the game
+10. The credentials must be your account name you have selected on step 3 and any letter for the password.
+11. Press on the checkbox bellow the password box and login
+12. The first time you log into the game you will see the opening cutscene. You need to select the twins name the press confirm once and close out of the game and log back in
+13. Congratulations you are now playing genshin impact completly offline 
+### ONE TIME SETUP
+1. After you have connected to the proxy server you need to go to this website [mitm.it](mitm.it)
+2. Scroll down until you see Android and tap on get ```mitmproxy-ca-cert.cer```
+3. In settings search for ```CA certificate```
+4. After pressing install anyways and providing your password navigate to the folder you downloaded the file from the previous step (probably the downloads folder) and select it
+
+### Stopping the server
+1.When you are ready to stop playing you **MUST** go to the proxy settings as shown on step 8 and revert the proxy settings to the default
+OTHERWISE YOU WILL NOT BE ABLE TO CONNECT TO THE INTERNET
+2. Open the notification center and tap exit on the 2 instances of Nix
+
+
+
 
 
