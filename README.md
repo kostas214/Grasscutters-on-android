@@ -54,7 +54,7 @@ Congratulations you have succesfully installed the Grasscutter server
 
 OTHERWISE YOU WILL NOT BE ABLE TO CONNECT TO THE INTERNET
 
-2. Open the notification center and tap exit on the 2 instances of Nix
+2. Open the nix-on-droid application press ```ctrl``` using the buttons above keyboard and ```c``` then copy paste ```. stop.sh``` and then press enter. You need to do that for the 2 sessions (the sessions will change automatically)
 
 ## Credits 
 1. Me
