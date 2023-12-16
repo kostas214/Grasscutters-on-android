@@ -1,5 +1,6 @@
 # Grasscutters-on-android
 ### A comprehensive guide on how to run the grasscutters server locally on your android device 
+## **READ ALL THE INSTRUCTIONS CAREFULLY BEFORE STARTING**
 
 Client installation (If you have played on yuuki before you can skip this part)
 1. Go to [ps.yuuki.me](https://ps.yuuki.me/game/genshin-impact) and download the android 4.0 client for genshin impact
@@ -52,6 +53,18 @@ Congratulations you have succesfully installed the Grasscutter server
 1.When you are ready to stop playing you **MUST** go to the proxy settings as shown on step 8 and revert the proxy settings to the default
 OTHERWISE YOU WILL NOT BE ABLE TO CONNECT TO THE INTERNET
 2. Open the notification center and tap exit on the 2 instances of Nix
+
+### DISCLAIMER:
+**I AM NOT RESPONSIBLE FOR ANY DAMAGE YOU HAVE CAUSED TO YOUR DEVICE**
+
+### Credits 
+1. me
+2. The grasscutter team [Their github page](https://github.com/Grasscutters/Grasscutter)
+3. Yuuki for providing the patched client of the game [Their website](http://ps.yuuki.me/)
+4. Ibrahim naseem#2635 on discord for helping me test and refine the instructions
+
+
+
 
 
 
