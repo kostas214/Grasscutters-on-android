@@ -7,3 +7,4 @@ mv BinOutput/ ExcelBinOutput/ Scripts ScriptSceneData/ Server TextMap/ ~/Grasscu
 cd ~/Grasscutters-on-android
 cp start.sh ~/
 cp run.sh ~/
+cd
