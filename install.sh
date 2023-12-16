@@ -5,3 +5,4 @@ java -jar grasscutter-1.7.4.jar
 cd GC-Resources/Resources
 mv BinOutput/ ExcelBinOutput/ Scripts ScriptSceneData/ Server TextMap/ ~/Grasscutters-on-android/resources
 cd ~/Grasscutters-on-android
+cp start.sh ~/
