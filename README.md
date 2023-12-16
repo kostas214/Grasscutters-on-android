@@ -43,25 +43,30 @@ Congratulations you have succesfully installed the Grasscutter server
 11. Press on the checkbox bellow the password box and login
 12. The first time you log into the game you will see the opening cutscene. You need to select the twins name the press confirm once and close out of the game and log back in
 13. Congratulations you are now playing genshin impact completly offline 
-### ONE TIME SETUP
+## ONE TIME SETUP
 1. After you have connected to the proxy server you need to go to this website [mitm.it](mitm.it)
 2. Scroll down until you see Android and tap on get ```mitmproxy-ca-cert.cer```
 3. In settings search for ```CA certificate```
 4. After pressing install anyways and providing your password navigate to the folder you downloaded the file from the previous step (probably the downloads folder) and select it
 
-### Stopping the server
+## Stopping the server
 1.When you are ready to stop playing you **MUST** go to the proxy settings as shown on step 8 and revert the proxy settings to the default
+
 OTHERWISE YOU WILL NOT BE ABLE TO CONNECT TO THE INTERNET
+
 2. Open the notification center and tap exit on the 2 instances of Nix
 
-### DISCLAIMER:
-**I AM NOT RESPONSIBLE FOR ANY DAMAGE YOU HAVE CAUSED TO YOUR DEVICE**
-
-### Credits 
+## Credits 
 1. Me
 2. The grasscutter team [Their github page](https://github.com/Grasscutters/Grasscutter)
-3. Yuuki for providing the patched client of the game [Their website](http://ps.yuuki.me/)
+3. Yuuki for providing the patched client of the game and making the proxy server i use [Their website](http://ps.yuuki.me/)
 4. Ibrahim naseem#2635 on discord for helping me test and refine the instructions
+
+## Issues
+If you have any issues sumbit them in github under this repository
+
+## DISCLAIMER:
+**I AM NOT RESPONSIBLE FOR ANY DAMAGE YOU HAVE CAUSED TO YOUR DEVICE**
 
 
 
