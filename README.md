@@ -58,7 +58,7 @@ OTHERWISE YOU WILL NOT BE ABLE TO CONNECT TO THE INTERNET
 **I AM NOT RESPONSIBLE FOR ANY DAMAGE YOU HAVE CAUSED TO YOUR DEVICE**
 
 ### Credits 
-1. me
+1. Me
 2. The grasscutter team [Their github page](https://github.com/Grasscutters/Grasscutter)
 3. Yuuki for providing the patched client of the game [Their website](http://ps.yuuki.me/)
 4. Ibrahim naseem#2635 on discord for helping me test and refine the instructions
