@@ -63,6 +63,7 @@ OTHERWISE YOU WILL NOT BE ABLE TO CONNECT TO THE INTERNET
 4. Nix-on-droid team for making the application used in this tutorial [Their github page](https://github.com/nix-community/nix-on-droid) 
 5. Ibrahim naseem#2635 on discord for helping me test and refine the instructions
 ## Issues
+If you run into any issues the first thing you should do is restart the server. Most issues will likely be fixed 
 If you have any issues sumbit them in github under this repository
 
 ## DISCLAIMER:
