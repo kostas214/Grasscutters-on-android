@@ -2,7 +2,7 @@
 
 ### A comprehensive guide on how to run the grasscutters server locally on your android device 
 
-Client installation
+Client installation (If you have played on yuuki before you can skip this part)
 1. Go to [ps.yuuki.me](https://ps.yuuki.me/game/genshin-impact) and download the android 4.0 client for genshin impact
 2. Install the .apk and open it
 3. You need to log onto the yuuki servers at least (make an account [here](https://ps.yuuki.me/account/register?type=web)
