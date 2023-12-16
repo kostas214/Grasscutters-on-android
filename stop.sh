@@ -1,0 +1,3 @@
+killall mongod
+cd ..
+exit
