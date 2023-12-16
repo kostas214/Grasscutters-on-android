@@ -8,10 +8,14 @@ Client installation
 3. You need to log onto the yuuki servers at least (make an account [here](https://ps.yuuki.me/account/register?type=web)
 4. Log in in genshin impact and wait for the download to complete (you can leave the app and the download will continue)
 
+Server installation 
+1. Download and install F-droid [here](https://f-droid.org/)
+2. Open F-droid and search for "Nix-on-Droid" and install the app
+3. Open Nix-on-Droid
+4. When you first open the application it may ask you for notifications permission (android 13 and up) and a prompt for "Bootstrap zipball location" will appear and you need to click on yes
+5. When the installation of bootstrap packages finishes you will need to write ```y``` and press enter on your keyboard
+6. Wait for everything to finish(It will take a while so be patient. If it looks like its stuck, its not be patient it will eventually finish)
 
-
-
-Server installation commands
 ```sh
 nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs
 nix-channel --update
