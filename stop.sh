@@ -1,3 +1,2 @@
 killall mongod
-cd ..
 exit
